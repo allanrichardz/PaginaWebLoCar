@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastre-se - LoCar </title>
+</head>
+<body background="imagens/fundoCadastro.png"> 
+
+    <table border="0" width="900" align="center"> <!-- Criar tabela.-->
+			
+        <tr>
+            <td height="89"><img src="imagens/logoLoCar.png"> </td>
+            <td align="right">
+                <a href="index.html" style="color: rgb(145, 2, 2);">Home</a> |
+                <a href="quemsomos.html" style="color: rgb(145, 2, 2);">Quem somos</a> |
+                <a href="cadastre.html" style="color: rgb(145, 2, 2);">Criar conta</a> 
+            </td>
+        </tr>
+    
+        <tr>
+            <td colspan="2" align="center">
+                <h1 style="color: rgb(145, 2, 2);"> Cadastre-se na LoCar: </h1>
+            </td>
+            <br>
+        </tr>
+
+        <tr>
+            <td>
+                <h3> Login: </h3>
+                <input type="text" name="login"> <br>            
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h3> Senha: </h3>
+                <input type="password" name="senha"> <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h3>Digite a senha novamente: </h3>
+                <input type="password" name="senha"> <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h3> Digite o seu CPF: </h3>
+                <input type="number" name="cpfusuario"> <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h3> Sexo: </h3>
+                <input type="radio" name="sexo"> Masculino <br>
+                <input type="radio" name="sexo"> Feminino <br>
+                <input type="radio" name="sexo"> Indefinido <br>
+                <input type="radio" name="sexo"> Prefiro não informar. <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h3> Data de nascimento: </h3>
+                <input type="date" id="start" name="nascimento" value="2025-01-01" min="1899-01-01" max="2026-01-01"> <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h3> Aplicativos de transporte do interesse: </h3>
+                <input type="checkbox" name="aplicativos"> Uber <br>
+                <input type="checkbox" name="aplicativos"> 99 Driver <br>
+                <input type="checkbox" name="aplicativos"> InDrive <br>
+                <input type="checkbox" name="aplicativos"> Particular <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h3> Estado de circulação: </h3>
+
+                <select>
+                    <option> Distrito Federal </option>
+                    <option> Goías </option>
+                    <option> Tocantins </option>
+                    <option> São Paulo </option>
+                    <option> Rio de Janeiro </option>
+                    <option> Espirito Santo </option>
+                    <option> Bahia </option>
+                    <option> Mato Grosso </option>
+                    <option> Pernanbuco </option>
+                    <option> Santa Catarina </option>
+                    <option> Paraná </option>
+                    <option> Mato Grosso do Sul </option>
+                    <option> Outros </option>
+                </select>
+                <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h3> Observações: </h3>
+                <textarea placeholder="Observação sobre a finalidade da locação..."></textarea>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
